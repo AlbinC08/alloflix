@@ -2,6 +2,50 @@
   text-align: center;
 }
 
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 220px;
+  padding: 20px;
+  padding: 10px;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-color: black;
+}
+
+html {
+  background-color: rgb(150, 148, 148);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+  border-radius: 0px 0px 10px 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+h1 {
+  color: white;
+}
+
+.search {
+  margin-top: 140px;
+}
+
+a {
+  color: brown;
+  text-decoration: none;
+  margin: 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -22,6 +66,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -35,4 +80,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.listmovies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movieCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+
+}
+
+.movieCard img {
+  width: 200px;
+  border-radius: 10px;
+
+}
+
+.card-container button {
+  display: none;
+}
+
+.profile-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 3px 4px 5px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+  background-color: black;
+}
+
+.my-profile {
+  margin-top: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
